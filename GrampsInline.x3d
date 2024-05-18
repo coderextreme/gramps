@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 4.0//EN" "https://www.web3d.org/specifications/x3d-4.0.dtd">
+<X3D profile='Interchange' version='4.0' xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' xsd:noNamespaceSchemaLocation='https://www.web3d.org/specifications/x3d-4.0.xsd'>
+  <head>
+    <component level='4' name='Networking'/>
+    <component level='3' name='Lighting'/>
+    <component level='2' name='Shape'/>
+    <meta content='GrampsInlineGLTF.x3d' name='title'/>
+    <meta content='Gramps' name='description'/>
+    <meta content='17 May 2024' name='created'/>
+    <meta content='17 May 2024' name='modified'/>
+    <meta content='Katy Schildmeyer' name='creator'/>
+    <meta content='gramps_animated_full_1.blend' name='source'/>
+  </head>
+  <Scene>
+    <WorldInfo info='"glTF Sample Model"' title='GrampsInlineGLTF.x3d'/>
+    <Inline DEF='GrampsInlineTest' url='"gramps_animated_full_1.gltf"'/>
+  </Scene>
+</X3D>

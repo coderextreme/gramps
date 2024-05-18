@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 4.0//EN" "https://www.web3d.org/specifications/x3d-4.0.dtd">
-<X3D profile='Interchange' version='4.0' xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' xsd:noNamespaceSchemaLocation='https://www.web3d.org/specifications/x3d-4.0.xsd'>
+<X3D profile='Full' version='4.0' xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' xsd:noNamespaceSchemaLocation='https://www.web3d.org/specifications/x3d-4.0.xsd'>
   <head>
     <component level='4' name='Networking'/>
     <component level='3' name='Lighting'/>
@@ -11,9 +11,11 @@
     <meta content='17 May 2024' name='modified'/>
     <meta content='Katy Schildmeyer' name='creator'/>
     <meta content='gramps_animated_full_1.blend' name='source'/>
+    <meta name='identifier' content='https://github.com/coderextreme/gramps/blob/main/GrampsInlineGLB.x3d'/>
+    <meta name='generator' content='Blender GLB exporter'/>
   </head>
   <Scene>
     <WorldInfo info='"glb Sample Model"' title='GrampsInlineGLB.x3d'/>
-    <Inline DEF='GrampsInlineTest' url='"gramps_animated_full_1.glb"'/>
+    <Inline DEF='GrampsInlineTest' url='"gramps_animated_full_1.glb" "https://raw.githubusercontent.com/coderextreme/gramps/main/gramps_animated_full_1.glb"'/>
   </Scene>
 </X3D>
